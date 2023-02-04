@@ -1,10 +1,10 @@
 theme = 'mainroad'
 
-baseURL = 'http://example.org/'
+baseURL = 'https://hide4096.github.io/'
 DefaultContentLanguage = "ja"
+paginate = "10"
 languageCode = 'ja-JP'
 hasCJKLanguage = true
-summaryLength = 120
 title = "ひでのブログ"
 
 [Author]
@@ -17,6 +17,9 @@ title = "ひでのブログ"
   description = "ひでのブログです。技術ネタが多いです。知らんけど"
   copyright = "hide4096"
   toc = false
+  pager = true
+  readmore = false
+  schema = true
   post_meta = ["date","categories"]
   dataformat = "1970-01-01"
 
@@ -39,12 +42,22 @@ title = "ひでのブログ"
   URL = "/tags/"
   weight = 3
 
+[[Menus.main]]
+  Name = "このブログについて"
+  URL = "/about/"
+  weight = 4
+
 [Params.sidebar]
   home = "right"
   list = "right"
-  single = false
+  single = "rightr"
   widgets = ["search","recent","categories","taglist","social","twitter"]
 
 [Params.widgets.social]
   twitter = "hide4096"
   github = "hide4096"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
