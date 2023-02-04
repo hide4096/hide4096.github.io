@@ -5,17 +5,28 @@ languageCode = 'ja-jp'
 hasCJKLanguage = true
 summaryLength = 120
 
-title = 'ひでのブログ'
+[Author]
+  name = "ひで"
+  bio = "千葉でロボティクスを学んでいる大学生です。"
+  avatar = "resource/penguin.jpg"
 
 [Params]
-  highlightColor = "#ffeeff"
+  highlightColor = "#725889"
+  title = "ひでのブログ"
+  subtitle = "備忘録とかいろいろ"
+  copyright = "hide4096"
 
 [[Menus.main]]
   Name = "ホーム"
   URL = "/"
+
 [[Menus.main]]
-  Name = "投稿一覧"
-  URL = "/posts/"
+  Name = "カテゴリー"
+  URL = "/categories/"
+
+[[Menus.main]]
+  Name = "タグ"
+  URL = "/tags/"
 
 [Params.sidebar]
   home = "right"
