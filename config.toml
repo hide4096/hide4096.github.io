@@ -21,7 +21,8 @@ title = 'ひでのブログ'
   home = "right"
   list = "right"
   single = false
-  widgits = ["search","recent","categories","taglist","social","twitter"]
-	
+  widgets = ["search","recent","categories","taglist","social","twitter"]
 
-
+[Params.widgets.social]
+  twitter = "hide4096"
+  github = "hide4096"
