@@ -1,4 +1,27 @@
 theme = 'mainroad'
+
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'ja-jp'
+hasCJKLanguage = true
+summaryLength = 120
+
+title = 'ひでのブログ'
+
+[Params]
+  highlightColor = "#ffeeff"
+
+[[Menus.main]]
+  Name = "ホーム"
+  URL = "/"
+[[Menus.main]]
+  Name = "投稿一覧"
+  URL = "/posts/"
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = false
+  widgits = ["search","recent","categories","taglist","social","twitter"]
+	
+
+
