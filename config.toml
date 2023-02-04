@@ -5,15 +5,15 @@ DefaultContentLanguage = "ja"
 languageCode = 'ja-JP'
 hasCJKLanguage = true
 summaryLength = 120
+title = "ひでのブログ"
 
 [Author]
   name = "ひで"
   bio = "千葉でロボティクスを学んでいる大学生です。"
-  avatar = "resource/penguin.jpg"
+  avatar = "static/penguin.jpg"
 
 [Params]
   highlightColor = "#725889"
-  title = "ひでのブログ"
   description = "ひでのブログです。技術ネタが多いです。知らんけど"
   copyright = "hide4096"
   toc = false
