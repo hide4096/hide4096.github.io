@@ -14,7 +14,7 @@ title = "ひでのブログ"
 
 [Params]
   highlightColor = "#725889"
-  description = "ひでのブログです。技術ネタが多いです。知らんけど"
+  description = "ひでのブログです。頑張って書きます。"
   copyright = "hide4096"
   toc = false
   pager = true
